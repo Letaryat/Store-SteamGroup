@@ -1,20 +1,19 @@
-# [Store module] Name Bonus
-Name Bonus module for Store: Awards players bonus credits if their name contains specific promotional texts, with customizable intervals and bonus amounts.
+# [Store module] Steam group
+Bonus for players that are in specific steam group.
+To be honest I did almost nothing since I don't have any basic skills in C# and this plugin is much more copy paste from other open-source plugins such as:
+- [Store-NameBonus by NaathySz (everything)](https://github.com/NaathySz/Store-NameBonus)
+- [CS2-SteamGroupReward by daffyyyy (functions to fetch members from steam group and check players if they are in that specific steam group)](https://github.com/daffyyyy/CS2-SteamGroupReward)
 
 # Config
 Config will be auto generated. Default:
 ```json
 {
-  "ad_texts": [
-    "YourAd1",
-    "YourAd2"
-  ],
+  "steamgroupid": 123456,
   "bonus_credits": 100,
-  "interval_in_seconds": 300,
+  "interval_in_seconds": 100,
   "show_ad_message": true,
-  "ad_message_delay_seconds": 120,
-  "ad_message": "Add '{blue}YourAd{white}' to your nickname and earn bonus credits!",
+  "ad_message_delay_seconds": 100,
+  "ad_message": "Join steam group to gain bonus credits!",
   "ConfigVersion": 1
 }
 ```
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L611665R)

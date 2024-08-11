@@ -1,4 +1,4 @@
 {
-    "Prefix": "{red}[Name Bonus]{white}",
-    "You have been awarded": "You received {green}{0} {white}credits for having '{blue}{1}{white}' on your nickname"
+    "Prefix": "{red}[Group Bonus]{white}",
+    "You have been awarded": "You received {green}{0} {white}credits for being in server steam group"
 }
